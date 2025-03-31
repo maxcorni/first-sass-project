@@ -1,0 +1,14 @@
+/****************** crea ******************/
+
+.creative .mobile h2{
+    font-size: 3rem;
+    line-height: 3rem;
+    padding-bottom: 1rem;
+}
+
+.creative .slider-image img{
+    width: 100%;
+    height: 32.5rem;
+    object-fit: cover;
+}
+

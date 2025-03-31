@@ -1,0 +1,17 @@
+
+/****************** Button ******************/
+
+.primary-btn{
+    font-family: "Proximanova-bold";
+    text-transform: uppercase;
+    width: fit-content;
+    font-size: 1.5rem;
+    padding: 1.5rem 4rem;
+    color: #fff;
+    background-color: #111010;
+}
+
+.primary-btn-white{
+    color: #111010;
+    background-color: #fff;
+}

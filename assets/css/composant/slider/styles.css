@@ -1,0 +1,43 @@
+/****************** slider ******************/
+
+.slider{
+    position: relative;
+}
+
+.slider-chevron{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    
+}
+
+.slider-chevron img{
+    background-color: #ffffff;
+    padding: 1rem;
+    z-index: 1;
+}
+
+.slider-chevron .rigth{
+    transform: rotate(180deg);
+}
+
+.slider-indicators{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.indicator{
+    background-color: #C4C4C4;
+    width: 5px;
+    height: 5px;
+}
+
+.active{
+    background-color: #111010;
+}

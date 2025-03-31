@@ -1,0 +1,27 @@
+/****************** Tile card ******************/
+
+.tile-card .content{
+    padding: 2.5rem 0;
+    width: 33.3rem;
+    text-align: center;
+}
+
+.tile-card p{
+    font-family: "proximanova-semibold";
+    font-size: 1.8rem;
+    line-height: 1.8em; 
+    color: #1110107e;
+}
+
+.tile-card p span{
+    font-family: "proximanova-regular";
+    font-size: 1.2rem;
+    line-height: 1.2em;
+    padding-right: 1rem;
+    color: #CACACA;
+}
+
+
+
+
+

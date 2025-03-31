@@ -1,0 +1,214 @@
+/****************** banner *****************/
+
+.banner{
+    padding-top: 6.6rem;
+    padding-bottom: 35rem;
+}
+
+.banner-image{
+    position: relative;
+    height: 43.4rem; /* Hauteur définie pour la zone */
+    overflow: hidden; /* Cache les bords de l'image */
+}
+
+.banner-image img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%; /* Largeur responsive */
+    height: 43.4rem; /* Hauteur responsive */
+    object-fit: cover; /* Couvre l'intégralité du conteneur, rogne l'image si nécessaire */
+    object-position: left center;
+}
+
+.banner-cta{
+    position: relative;
+}
+
+.banner-cta .section-card{
+    position: absolute;
+    left: 50%;
+    top: -3rem;
+    transform: translate(-50%);
+}
+
+/* Media Query pour le desktop */
+@media (max-width: 800px) {
+    .banner-image img {
+        object-position: calc(20% + 5vw) center; /* Plus de rognage à droite */
+    }
+}
+
+@media (min-width: 800px) {
+
+    .banner{
+        padding-top: 19.2rem;
+        padding-bottom: 0;
+    }
+
+    .banner-image{
+        height: 52.6rem;
+    }
+
+    .banner-image img {
+       height: 52.6rem;
+    }
+
+    .banner-cta .section-card{
+        left: auto;
+        right: 0;
+        top: -47rem;
+        transform: none;
+    }
+}
+
+/****************** vision *****************/
+.vision{
+    height: 80rem;
+}
+
+.vision-cta{
+    position: relative;
+}
+
+.vision-cta .section-card{
+    width: 90%;
+    margin: auto;
+}
+
+.bg-vision{
+    position: absolute;
+    background-image: url(../../images/pictures/empty-interior.png);
+    background-size: cover; /* Remplit la div sans déformation */
+    background-position: bottom; /* Centre l'image */
+    background-repeat: no-repeat; /* Évite la répétition */
+    height: 57.9rem;
+    width: 100%;
+    top: 60%;
+    left: 0;
+    z-index: -1;
+}
+
+@media (min-width: 800px) {
+
+    .vision{
+        height: 62.6rem;
+    }
+
+    .vision-cta .section-card{
+        width: 72rem;
+        margin-left: 0;
+    }
+
+    .vision-cta{
+        padding: 10rem 0;
+    }
+
+    .bg-vision{
+        height: 52.6rem;
+        width: 90%;
+        left: 10%;
+        top: 50%;
+        transform: translate(0,-50%);
+    }  
+}
+
+/****************** crea *****************/
+
+.creative .desktop .grid{
+    gap: 2rem;
+}
+
+.creative-image{
+    position: relative;
+}
+
+.creative-play-btn{
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    padding: 3rem;
+    bottom: 0;
+    right: 0;
+    background-color: #ffffff;
+}
+
+.creative-play-btn span{
+    display: block;
+    color: #111010;
+}
+
+
+@media (min-width: 800px){
+    .creative .title-intro{
+        width: 70%;
+        margin-left: 0;
+        text-align: left;
+        p{ 
+            padding-top: 1rem;
+        }
+    }
+
+    .creative .btn{
+        justify-content: left;
+    }
+}
+
+/****************** Showroom *****************/
+
+.showroom{
+    height: 89rem;
+}
+
+.showroom-image{
+    position: relative;
+    top: 22.3rem;
+    height: 66.9rem; /* Hauteur définie pour la zone */
+    overflow: hidden; /* Cache les bords de l'image */
+    z-index: -1;
+}
+
+.showroom-image img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%; /* Largeur responsive */
+    height: 66.9rem; /* Hauteur responsive */
+    object-fit: cover; /* Couvre l'intégralité du conteneur, rogne l'image si nécessaire */
+    object-position: left center;
+}
+
+.showroom-cta{
+    position: relative;
+}
+
+.showroom-cta .section-card{
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+@media (min-width: 800px){
+    .showroom{
+        height: 64.9rem;
+    }
+    
+    .showroom-image{
+        height: 64.9rem; 
+        top: 0;
+    }
+    
+    .showroom-image img{
+        height: 64.9rem; 
+        object-fit: contain; 
+    }
+
+    .showroom-cta .section-card{
+        top: 50%;
+        left: auto;
+        right: 0;
+        width: 69.2rem;
+        transform: translate(0, -50%);
+    }
+}

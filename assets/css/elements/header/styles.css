@@ -1,0 +1,85 @@
+
+header{
+    background-color: #fff;
+    position: fixed ;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header-desktop{
+    height: 0;
+    overflow: hidden;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    width: 100%;
+}
+
+/* ************ desktop ************ */
+
+.logo{
+    width: 16.2rem;
+    margin: auto;
+    padding-top: 4.5rem;
+}
+
+.menu{
+    display: inherit;
+    justify-content: center;
+    text-align: center;
+    gap: clamp(0rem, 3vw, 5rem);;
+}
+
+.menu{
+    display: inherit;
+    justify-content: center;
+    text-align: center;
+    gap: clamp(0rem, 3vw, 5rem);;
+}
+
+.menu a{
+    font-family: "proximanova-bold";
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #0A0A0A;
+}
+
+.menu .home-link{
+    color: #979797;
+}
+
+.search-bar, .user-menu{
+    display: flex;
+    gap: 2.4rem;
+    flex: 1;
+}
+
+.user-menu{
+    justify-content: flex-end;
+}
+
+/* ************ media querries ************ */
+
+@media(min-width: 800px){
+    .header-mobile{
+        height: 0;
+        overflow: hidden;
+    }
+
+    .header-desktop{
+        display:flex;
+        flex-direction: column;
+        height: 19.2rem;
+    }
+
+    .navbar{
+        padding-bottom: 4.5rem;
+    }
+}

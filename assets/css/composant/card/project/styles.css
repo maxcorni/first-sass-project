@@ -1,0 +1,40 @@
+/****************** project card ******************/
+
+.project-card .image img{
+    width: 100%;
+    height: 32.5rem;
+    object-fit: cover;
+}
+
+.project-card .content{
+    padding: 2.5rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+.project-card p{
+    font-family: "proximanova-semibold";
+    font-size: 1.6rem;
+    line-height: 1.6rem; 
+    padding-top: 0.3rem;
+    color: #1110107e;
+}
+
+/****************** Media Querries ******************/
+
+@media (min-width: 800px) {
+
+    .project-card .image img{
+        width: 33.3rem;
+    }
+
+    .project-card{
+        flex: 1;
+    }
+
+}
+
+
+
+

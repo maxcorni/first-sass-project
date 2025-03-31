@@ -1,0 +1,139 @@
+
+footer{
+    background-color: #111010;
+    width: 100%;
+}
+
+.footer-desktop{
+    height: 0;
+    overflow: hidden;
+}
+
+.footer-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.footer-link{
+    border-bottom: solid 1px #474747;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+footer p, h4 , footer li a{
+    font-family: "poppins-semibold";
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    color: #ffffff;
+}
+
+.footer-link img{
+    width: 1.7rem;
+    height: 0.85rem;
+}
+
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.5rem 0;
+    gap: 2rem;
+    width: 100%;
+}
+
+.grid-social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2.1rem;
+}
+
+footer span{
+    font-family: "proximanova-bold";
+}
+
+.credit p{
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+}
+
+@media(min-width: 800px){
+    footer{
+        margin-top: 12rem;
+    }
+
+    .footer-mobile{
+        height: 0;
+        overflow: hidden;
+    }
+
+    .footer-top, .footer-desktop{
+        height: auto;
+        padding-top: 7rem;
+        padding-bottom: 0rem;
+    }
+
+    footer .container .footer-layout{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .footer-top{
+        flex-shrink: 0;
+    }
+
+    .footer-desktop{
+        flex-shrink: 1;
+    }
+
+    .footer-desktop .grid{
+        gap: 17rem;
+    }
+
+    h4{
+        padding-bottom: 1rem;
+    }
+
+    footer p, footer li a{
+        font-family: "poppins-regular";
+    }
+
+    footer li a{
+        color: #A4A4A4;
+    }
+
+    footer .credit{
+        padding-top: 3rem;
+        padding-bottom: 2.7rem;
+    }
+
+    .column-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer-bottom{
+        align-items: normal;
+        padding-top: 0;
+    }
+
+    .grid-social{
+        gap: 1.5rem;
+        justify-content: left;
+    }
+
+    .credit{
+        display: flex;
+        justify-content: space-between;
+    }
+}

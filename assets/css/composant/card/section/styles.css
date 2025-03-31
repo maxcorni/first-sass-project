@@ -1,0 +1,42 @@
+/****************** Section card ******************/
+
+.section-card{
+    background-color: #F7F7F7;
+    width: 100%;
+    padding: 3.2rem 2.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.dark-card{
+    background-color: #666A6F;
+    color: #fff;
+    p{
+        color: #ECECEC;
+    }
+}
+
+
+
+/****************** Media Querries ******************/
+
+@media (min-width: 800px) {
+    .section-card{
+        width: 72rem;
+        gap: 3rem;
+        padding: 5rem 4rem;
+    }
+
+    .section-card :nth-child(3){
+        margin-top: 2.8rem;
+    }
+
+    .dark-card p{
+        font-size: 2rem;
+    }
+}
+
+
+
+

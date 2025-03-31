@@ -1,0 +1,93 @@
+/* Proxima Nova */
+
+/* Regular */
+
+@font-face {
+    font-family: "proximanova-regular";
+    src: url(../../../fonts/proxima-nova/ProximaNova-Regular.otf);
+}
+
+/* SemiBold */
+
+@font-face {
+    font-family: "proximanova-semibold";
+    src: url(../../../fonts/proxima-nova/Proxima-Nova-Semibold.otf);
+}
+
+/* Bold */
+
+@font-face {
+    font-family: "proximanova-bold";
+    src: url(../../../fonts/proxima-nova/ProximaNova-Bold.otf);
+}
+ 
+/* Poppins*/
+
+/* Regular */
+
+@font-face {
+    font-family: "poppins-regular";
+    src: url(../../../fonts/poppins/Poppins-Regular.ttf);
+}
+
+/* Bold */
+
+@font-face {
+    font-family: "poppins-semibold";
+    src: url(../../../fonts/poppins/Poppins-SemiBold.ttf);
+}
+
+
+h1,h2{
+    font-family: "proximanova-bold";
+    text-transform: capitalize;
+}
+
+h1{
+    font-size: 2.6rem;
+    line-height: 2.2rem;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 4.8rem; 
+}
+
+h3{
+    font-family: "proximanova-semibold";
+    text-transform: capitalize;
+    font-size: 2.6rem;
+    line-height: 2.6rem; 
+    color: #010101;
+}
+
+p{
+    font-family: "proximanova-regular";
+    color: #616161;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.title-intro{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 4rem;
+}
+
+
+@media (min-width: 800px) {
+    h1, h2{
+        font-size: 4.8rem;
+        line-height: 4.8rem;
+    }
+
+    p{
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+
+    .title-intro{
+        width: 60%;
+        margin: auto;
+    }
+}

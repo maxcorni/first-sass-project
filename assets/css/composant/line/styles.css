@@ -1,0 +1,17 @@
+/****************** line******************/
+
+.line{
+    background-color: #C4C4C4;
+    width: 12.5rem;
+    height: 0.3rem;
+    margin: 1rem auto;
+}
+
+@media (min-width: 800px){
+    .line{
+        width: 15rem;
+        height: 0.5rem;
+        margin: 2rem auto;
+    }
+}
+

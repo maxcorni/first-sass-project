@@ -1,0 +1,33 @@
+/****************** project card desc******************/
+
+.project-card-desc{
+    display: flex;
+    flex-direction: row;
+    background-color: #F5F5F5;
+    padding: 2rem 3rem;
+    gap: 2rem;
+    align-items: center;
+}
+
+.project-card-desc img{
+    width: 28.9rem;
+    height: 28.9rem;
+}
+
+.project-card-desc p{
+    text-align: center;
+}
+
+
+/****************** Media Querries ******************/
+
+@media (min-width: 800px) {
+
+    .project-card-desc{
+        flex: 2;
+    }
+}
+
+
+
+
